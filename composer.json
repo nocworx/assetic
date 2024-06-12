@@ -1,5 +1,5 @@
 {
-    "name": "kriswallsmith/assetic",
+    "name": "nocworx/kriswallsmith-assetic",
     "description": "Asset Management for PHP",
     "keywords": [ "assets", "compression", "minification" ],
     "homepage": "https://github.com/kriswallsmith/assetic",
@@ -12,6 +12,9 @@
             "homepage": "http://kriswallsmith.net/"
         }
     ],
+    "replace": {
+        "kriswallsmith/assetic": "*"
+    },
     "require": {
         "php": ">=8.1",
         "symfony/process": "^7"
